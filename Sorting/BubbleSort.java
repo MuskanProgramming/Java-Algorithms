@@ -13,6 +13,9 @@
  *
  * Space Complexity:
  * - O(1) (In-place sorting)
+ * 
+ * * Stability:
+ *  - Yes
  */
 
 public class BubbleSort {
@@ -37,7 +40,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {24, 2, 18, 96, -86};
+        int[] arr = {24, 2, 18, 96, -86, 0};
         System.out.println("Before Sorting:");
         printArray(arr);
         System.err.println();
